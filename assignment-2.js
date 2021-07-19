@@ -1,0 +1,12 @@
+const elName = document.getElementById("name");
+const user = prompt("Lets play the sum game.\nPlease enter your name");
+const num1 = Number(prompt("Enter first number"));
+const num2 = Number(prompt("Enter second number"));
+const answer = num1 + num2;
+elName.textContent = user;
+elNum1 = document.getElementById("num1");
+elNum2 = document.getElementById("num2");
+elNum1.textContent = num1;
+elNum2.textContent = num2;
+elAnswer = document.getElementById("answer");
+elAnswer.textContent = answer;
